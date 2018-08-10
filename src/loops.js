@@ -91,6 +91,20 @@ function sumOfEvenInRange(from, to) {
   be negative, but n should always be greater than m.
 */
 
+function sumOfOddInRange(from, to) {
+  if(from > to) {
+    throw new Error("from should be less than to!");
+  }
+
+  const sum = 0;
+  for (var i = from; i != to; i++) {
+    if(i%2 !== 0) {
+      sum = sum + i;
+    }
+  }
+
+  return sum;
+}
 
 exports.factorial=factorial;
 exports.nthFiboTerm=nthFiboTerm;
