@@ -30,6 +30,14 @@ const countVowels = function(inputStr) {
   countConsonants("123ab") => 1
 */
 
+const countConsonants = function(inputStr) {
+  const count = 0;
+  inputStr.split('').forEach((char) => {
+    if(!vowels.includes(char)) {
+      count = count+1;
+    }
+  })
+}
 
 /*
   isPalindrome
