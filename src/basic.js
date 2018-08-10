@@ -81,6 +81,9 @@ const greatestOf = function () {
   This function returns the average of three numbers
 */
 
+const averageOf = function () {
+  return arguments.reduce((prev, next) => { prev + next}, 0)/arguments.length;
+}
 
 exports.isEven=isEven;
 exports.isOdd=isOdd;
