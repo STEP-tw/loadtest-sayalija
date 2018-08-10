@@ -26,6 +26,9 @@ const square=function(a) {
   of that number
 */
 
+const square=function(a) {
+  return a*a*a;
+};
 
 /*
   gcd
