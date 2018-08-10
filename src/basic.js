@@ -16,6 +16,10 @@
   of that number
 */
 
+const square=function(a) {
+  return a*a;
+};
+
 /*
   cube
   This function takes a number and returns the mathematical cube
