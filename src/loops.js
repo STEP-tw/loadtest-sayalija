@@ -24,6 +24,19 @@ function factorial(num) {
   be negative, but n should always be greater than m.
 */
 
+function sumOfAnyN(from, to) {
+  if(from > to) {
+    throw new Error("from should be less than to!");
+  }
+
+  const sum = 0;
+  for (var i = from; i != to; i++) {
+    sum = sum + i;
+  }
+
+  return sum;
+}
+
 
 /*
   productOfAnyN
