@@ -42,6 +42,7 @@ const cube=function(a) {
 */
 
 
+
 /*
   lcm
   This function returns the least common multiple of any two numbers
@@ -71,6 +72,9 @@ const simpleInterest = function (p,n,r) {
   This function returns the greatest of three numbers
 */
 
+const greatestOf = function () {
+  return arguments.reduce((prev, next) => prev > next ? prev : next);
+}
 
 /*
   averageOf
