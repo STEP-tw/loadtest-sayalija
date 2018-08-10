@@ -7,6 +7,17 @@
   countVowels("coffee") => 3
 */
 
+const vowels = ['a', 'e', 'i', 'o', 'u'];
+
+const countVowels = function(inputStr) {
+  const count = 0;
+  inputStr.split('').forEach((char) => {
+    if(vowels.includes(char)) {
+      count = count+1;
+    }
+  })
+}
+
 
 /*
   countConsonants
