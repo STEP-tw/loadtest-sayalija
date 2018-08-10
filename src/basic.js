@@ -32,7 +32,7 @@ const square=function(a) {
   of that number
 */
 
-const square=function(a) {
+const cube=function(a) {
   return a*a*a;
 };
 
