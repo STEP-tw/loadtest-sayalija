@@ -48,6 +48,9 @@ const square=function(a) {
   This function returns the simple interest calculated when given
   principle, period and rate of interest(in that order)
 */
+const simpleInterest = function (p,n,r) {
+  return p*n*r/100;
+}
 
 
 /*
