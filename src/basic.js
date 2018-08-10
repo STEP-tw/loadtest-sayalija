@@ -14,6 +14,8 @@ const isEven= function (number) {
   based on whether the number is odd or not
 */
 
+const idOdd = () => !isEven.bind(arguments);
+
 /*
   square
   This function takes a number and returns the mathematical square
